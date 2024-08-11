@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color:dodgerblue ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 60%;
+    height: 70vh;
+    background-color: rgb(101, 255, 209);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+.box h1{
+    font-size:1.5rem ;
+    font-family: sans-serif;
+    padding: 10px;
+    margin: 10px;
+    color: dodgerblue;
+    border-bottom: 1px solid rgb(26, 114, 238);
+}
+.subjects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.subject{
+    padding: 10px;
+    margin: 10px;
+    /* border: none; */
+    border-bottom:1px solid rgb(80, 229, 246) ;
+    border-radius: 10px;
+    background:white;
+    /* outline: none; */
+
+}
+#result{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+#grades{
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    color: rgb(45, 45, 45);
+}
